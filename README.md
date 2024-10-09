@@ -18,9 +18,14 @@ This is Alison, testing a repository
 
 
 ```mermaid
+---
+config:
+  look: handDrawn
+  theme: forest
+---
 flowchart LR;
-    A["`Make a _Repository_`"]--xB["`**PANIC**`"];
-    A-->C["`Read  some blogs 👓`"];
-    C-->D["`**_REJOICE_** 🎊`"];
+    A>"`Make a _Repository_`"]-- No ☹️ --xB{"`**PANIC**`"};
+    A-- Yes 😄 -->C["`Read  some blogs 👓`"];
+    C-->D((("`**_REJOICE_** 🎊`")));
 ```
 
