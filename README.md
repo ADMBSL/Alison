@@ -24,4 +24,3 @@ flowchart LR;
     C -->D((("`**_REJOICE_** 🎊`")));
 ```
 
-hello 
