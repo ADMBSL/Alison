@@ -14,3 +14,10 @@ This is Alison, testing a repository
 ⭐
 
 ![dog](https://github.com/user-attachments/assets/ca03fc0a-766d-4ed5-9f78-32d117dda762 "Dog, Shocked")
+
+```mermaid
+flowchart LR;
+    A["`Make a _Repository_`"]--xB["`**PANIC**`"];
+    A-->C["`Read  some blogs 👓`"];
+    C-->D["`**_REJOICE_** 🎊`"];
+```
