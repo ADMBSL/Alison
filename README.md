@@ -19,8 +19,8 @@ This is Alison, testing a repository
 
 ```mermaid
 flowchart LR;
-    A>"`Make a _Repository_`"]--xB{"`**PANIC**`"};
+    A["`Make a _Repository_`"]--xB["`**PANIC**`"];
     A-->C["`Read  some blogs 👓`"];
-    C -->D((("`**_REJOICE_** 🎊`")));
+    C-->D["`**_REJOICE_** 🎊`"];
 ```
 
