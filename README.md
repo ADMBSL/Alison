@@ -18,9 +18,15 @@ This is Alison, testing a repository
 
 
 ```mermaid
+---
+config:
+  layout: elk
+  look: handDrawn
+  theme: neutral
+---
 flowchart LR;
-    A>"`Make a _Repository_`"] -- No --xB{"`**PANIC**`"};
-    A -- Yes -->C["`Read  some blogs 👓`"];
+    A>"`Make a _Repository_`"]--xB{"`**PANIC**`"};
+    A-->C["`Read  some blogs 👓`"];
     C -->D((("`**_REJOICE_** 🎊`")));
 ```
 
